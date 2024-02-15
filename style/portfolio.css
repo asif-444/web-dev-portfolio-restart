@@ -4,11 +4,12 @@ body {
     font-family: "Open Sans", sans-serif;
 
 }
-.text-primary{
+
+.text-primary {
     color: orangered;
 }
 
-.btn-primary{
+.btn-primary {
     border-radius: 5px;
     background: orangered;
     border: 0;
@@ -17,6 +18,19 @@ body {
     font-weight: 700;
     padding: 15px 35px;
 }
+
+.section-title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: rgb(24, 14, 14);
+    text-align: center;
+    font-size: 18px;
+}
+
 /* nav related styles */
 nav {
     display: flex;
@@ -30,27 +44,70 @@ nav {
     font-size: 45px;
     font-weight: 800;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
+
 nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
 }
 
 /* header related styles */
-.header{
+.header {
     background-color: rgb(242, 237, 237);
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
-.banner{
-    padding: 30px 30px 30px 150px;
+
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.banner .profile-picture{
+
+.banner-content {
+    min-width: 500px;
+}
+
+.banner .profile-picture {
     width: 500px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    margin-bottom: 0px;
+    color: rgb(88, 73, 73);
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.banner-description {
+    margin-top: 0px;
+}
+
+.banner button {
+    margin-top: 5px;
+}
+
+/* main section styles */
+
+/* about section styles */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: whitesmoke;
+    margin: 130px 0;
 }
