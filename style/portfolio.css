@@ -177,4 +177,11 @@ main section{
 .download-cv{
     text-align: center;
     margin-top: 50px;
+    width: 50%;
+    
+}
+
+/* footer style */
+footer{
+    display: flex;
 }
